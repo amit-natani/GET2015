@@ -1,0 +1,25 @@
+section {
+	margin : 0 auto;
+	width : 10%;
+	height : 300px;
+	margin-left : 50%;
+}
+
+body{
+	background-image : url("../images/download.jpg"), url("../images/znx.jpg");
+	background-position : left top, right top ;
+	background-repeat : no-repeat, no-repeat;
+	padding-top : 10%
+}
+
+#rcorners6 {
+	width : 120%;
+	height : 120px;
+	background-color : green;
+	border-width : 4px 30px 4px 30px;
+	border-style : solid;
+	border-color : cyan blue red brown;
+	border-radius : 0 120px 0 120px;
+	-webkit-border-radius : 0 120px 0 120px; 
+	-moz-border-radius : 0 120px 0 120px;
+} 
