@@ -1,0 +1,6 @@
+0,Amit,8233249261,amit@gmail.com,ABPS,GIT,Music/Dance/Games
+0,Ankur,7548754856,ankur@gmail.com,Farji School,PIT,Music/Dance
+0,Sanjay,7415170199,sanjay@gmail.com,School no. 1,PCE,Music/Dance/ReadingBooks
+0,Sumitra,9876598765,sumitra@gmail.com,ABC School,GIT,Music/Dance
+1,GWECA,8003339711,gweca@gmail.com,Maths/Physics,Madhvi Jain/Uma Shankar,TCS/Infosys/Wipro
+1,Metacube,8993339711,Metacube@gmail.com,Physics/Hindi,Madhvi Jain/Uma Shankar,TCS/Infosys
