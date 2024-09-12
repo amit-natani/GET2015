@@ -1,0 +1,24 @@
+#container {
+	margin-left : 37%;
+	text-align : center;
+	width : 25%;
+	margin-top : 15%;
+	background-color : #CBC0DD;
+	padding-left : 1%; 
+}
+#div1 {
+	width : 90%;
+	height : 70px;
+	padding : 3%;
+	border : 1px solid #aaaaaa;
+}
+#div3 {
+	width : 90%;
+	height : 70px;
+	padding : 3%;
+	border : 1px solid #aaaaaa;
+}
+#div2 {
+	padding : 2%;
+	border : 1px solid #aaaaaa;
+}
