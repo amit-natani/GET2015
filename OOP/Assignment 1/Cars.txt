@@ -1,0 +1,8 @@
+1,SUV
+2,Sedan
+3,SUV
+4,HatchBack
+5,HatchBack
+6,Sedan
+7,HatchBack
+8,HatchBack

@@ -1,0 +1,9 @@
+Mechanic 1,101,Sedan,4000
+Mechanic 2,102,SUV,5000
+Mechanic 3,103,Sedan,4000
+Mechanic 4,104,HatchBack,3000
+Mechanic 5,105,HatchBack,3000
+Mechanic 6,106,SUV,5000
+Mechanic 7,107,HatchBack,3000
+Mechanic 8,108,SUV,5000
+Mechanic 9,109,HatchBack,3000
