@@ -1,0 +1,42 @@
+body{
+	text-align : center;
+}
+.text {
+width : 90%;
+font-family : arial;
+border-radius : 0px;
+padding : 5px;
+
+}
+.minmax {
+	width : 50%;
+	font-family : arial;
+	border-radius : 0px;
+	padding : 5px;
+}
+
+#red {
+	background-color : red;
+}
+
+.tData {
+	width : 20px;
+	margin-left : 0px;
+	margin-right: 0px;
+}
+
+#outputTable {
+	width : 35%;
+	border : 3px solid black;
+	border-collapse : collapse;
+}
+
+#outputRow {
+	height : 40px;
+	border-bottom : 1px solid black;
+}
+
+#tdName {
+	width : 15%;
+	border-right: 1px solid black;
+}
