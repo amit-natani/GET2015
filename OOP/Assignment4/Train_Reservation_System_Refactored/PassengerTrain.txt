@@ -1,0 +1,3 @@
+1, PassengerTrain1, Jaipur, Ajmer, 400, 13:00, 3, 20
+2, PassengerTrain2, Pune, Alwar, 1400, 21:00, 13, 10
+3, PassengerTrain3, Pali, Kota, 300, 15:00, 3, 15
