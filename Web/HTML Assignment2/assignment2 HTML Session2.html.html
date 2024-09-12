@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Registration </title>
+		<link rel = "stylesheet" type = "text/css" href = "style2.css"/ >
+	</head>
+	<body>
+		<fieldset>
+			<legend> :: Registration :: </legend>
+			<form>
+				<label><b>Enter Name: </b></label><br/>
+				<input class = "text" type = "text" name = "name" pattern = "[a-zA-Z]{2,}[a-zA-Z ]{0,}" placeholder = "Enter Name" required/><br/>
+				<label><b>Enter email : </b></label><br/>
+				<input class = "text" type = "email" name = "email" placeholder = "Enter email" required/><br/>
+				<label><b>Enter Date : </b></label><br>
+				<input class = "date" type = "date" name = "date" placeholder = "Enter date" required/><br/>
+				<label><b>Skill Level : </b></label><br/>
+				<input id = "skills" type = "range" min = "0" max = "100" value = "0" step = "10" required/><br/>
+				<label><b>Choose Country : </b></label><br/>
+				<input class = "dropdownlist"type = "text" name = "country" id = "country" list = "countries" required>
+					<datalist id = "countries">
+						<option value = "India">
+						<option value = "Pakistan">
+						<option value = "China">
+						<option value = "Russia">
+						<option value = "Sri Lanka">
+						<option value = "America">
+						<option value = "Brazil">
+						<option value = "Japan">
+						<option value = "Indonasia">
+						<option value = "West-Indeise">
+						<option value = "Australia">
+					</datalist><br/>			
+				<input type = "submit" value = "Submit" id = "submit"/>
+			</form>
+		</fieldset>
+	</body>
+</html>

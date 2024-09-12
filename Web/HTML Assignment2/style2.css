@@ -1,0 +1,36 @@
+body {
+	background-color : #F3ECF7;
+}
+
+.text {
+	width : 300px;
+	margin-top : 5px;
+	fonr-family : arial;
+	margin-bottom : 10px;
+}
+
+fieldset {   
+  -moz-border-radius:10px;  
+  border-radius: 10px;  
+  -webkit-border-radius: 10px;
+  padding : 20px;
+  width : 20%;
+  margin-left : 38%;
+  background-color : #E1EEEE;
+}
+
+submit {
+	margin-top : 30px;
+}
+
+.dropdownlist {
+	margin-top : 5px;
+	margin-bottom : 10px;
+	width : 200px;
+}
+
+.date { 
+	margin-top : 5px;
+	margin-bottom : 10px;
+	width : 200px;
+}
