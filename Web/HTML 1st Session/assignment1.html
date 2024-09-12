@@ -1,0 +1,226 @@
+<!DocType html>
+<html>
+	<head>
+		<title> Job Profile Creation </title>
+	</head>
+	<body>
+		<form>
+			<table>
+				<tr>
+					<td><b>Create Your Account:</b></td>
+				<tr> 
+					<td align = "right"><font color = red>*</font>Email ID: </td>
+					<td> <input type = "email", name = "email" placeholder = "Enter Your Email" required></td>
+				</tr>
+				<tr> 
+					<td align = "right"> <font color = red>*</font>Password: </td>
+					<td> <input type = "password", name = "password" required>
+				</tr>
+				<tr> 
+					<td align = "right"> <font color = red>*</font>Confirm Password: </td>
+					<td> <input type = "password", name = "confirm_password" required>
+				</tr>
+				<tr>
+					<td colspan = "2"> <hr></td>
+				</tr>
+				<tr>
+					<td colspan = "2"><b>Contact Details<font size = "1pt"> This is where recruiters and employers will contact you for jobs.</font></b></td>
+				</tr> 
+				<tr>
+					<td align = "right">Your Name:</td>
+					<td ><input type="text" name="name"></td>
+				</tr>
+				<tr>
+					<td align = "right"><font color = red>*</font>Current Location :</td>
+					<td>
+						<select name = "currentLocation" required>
+							<option value = ""> Select </option>
+							<option value = "jaipur"> Jaipur </option>
+							<option value = "banglore"> Banglore </option>
+							<option value = "kolkata"> Kolkata </option>
+							<option value = "delhi"> Delhi </option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" > Mobile: </td>
+					<td> <input type="text" name="mobile"> </td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td> if you do not have a mobile, enter<a href = "javascript:;" I> Landline number </a></td>
+				<tr>
+					<td colspan = "2"><hr></td>
+				</tr>
+				<tr>
+					<td  colspan=2 ><b>Current Proffesional Details</b></td>
+				</tr>
+				<tr>
+					<td align="right"><font color = red>*</font>Total Experience</td>
+					<td>
+						<select name = "years" required>
+							<option value = ""> Select </option>
+							<option value = "0">0</option>
+							<option value = "1">1</option>
+							<option value = "2">2</option>
+							<option value = "3">3</option>
+							<option value = "4">4</option>
+							<option value = "5">5</option>
+							<option value = "6">6</option>
+							<option value = "7">7</option>
+							<option value = "8">8</option>
+							<option value = "9">9</option>
+							<option value = "10">10</option>
+							<option value = "11">11</option>
+						</select>
+						<label> Years</label>
+						<select name = "months" required>
+							<option value = ""> Select </option>
+							<option value = "0">0</option>
+							<option value = "1">1</option>
+							<option value = "2">2</option>
+							<option value = "3">3</option>
+							<option value = "4">4</option>
+							<option value = "5">5</option>
+							<option value = "6">6</option>
+							<option value = "7">7</option>
+							<option value = "8">8</option>
+							<option value = "9">9</option>
+							<option value = "10">10</option>
+							<option value = "11">11</option>
+						</select>
+						<label> Months </label>
+					</td>
+				</tr>
+				<tr>
+					<td align = "right"><font color = red>*</font>Current Industry:</td>
+					<td>
+						<select name = "industry" required>
+							<option value =""> Select </option>
+							<option value = "metacube">Metacube Softwares</option>
+							<option value = "tcs">TCS</option>
+							<option value = "infosys">Infosys</option>
+							<option value = "hcl">HCL</option>
+							<option value = "a3logics">A3 Logics</option>
+							<option value = "globallogics">Global Logic</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td align = "right"><font color = red>*</font>Functionl Areas:</td>
+					<td>
+						<select name = "functionalAreas" required>
+							<option value = ""> Select </option>
+							<option value = "development">Development</option>
+							<option value - "maintenance">Maintenance</option>
+							<option value = "hr">HR</option>
+							<option value = "testing">Testing</option>
+							<option value = "qa">QA</option>
+							<option value = "infrastructure">Infrastructure</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td> <a href = "javascript:;" > What is my Functional Area and Industry? </a></td>
+				</tr>
+				<tr>
+					<td align="right"><font color = red>*</font>Key Skills</td>
+					<td><textarea rows="3" cols="50" name="keyskills" placeholder="Please enter your areas of expertise / specialization" required></textarea></td>
+				</tr>
+				<tr>
+					<td align="right"> <font color = red>*</font>Resume HeadLine</td>
+					<td><textarea rows="1" cols="100" placeholder="Describe your professional background in one line" required maxlength = "250"></textarea> </td>
+				</tr>
+				<tr>
+					<td colspan = "4" align = "right">Max 250 characters</td>
+				</tr>
+				<tr>
+					<td colspan = "2"><hr></td>
+				</tr>
+				<tr colspan="2">
+					<td><b>Education Details<font size = "1pt"> Please list your areas of study.</font></b></td>
+				</tr>
+				<tr>
+					<td align = "right"><font color = red>*</font>Basic Graduation:</td>
+					<td>
+						<select name = "basicGraduation" required>
+							<option value = ""> Select </option>
+							<option value = "rtu">RTU</option>
+							<option value = "ptu">PTU</option>
+							<option value = "iit">IIT</option>
+							<option value = "mnit">MNIT</option>
+							<option value = "bits">BITS</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td align = "right">Post Graduation:</td>
+					<td>
+						<select name = "postGraduation">
+							<option value = ""> Select </option>
+							<option value = "rtu">RTU</option>
+							<option value = "ptu">PTU</option>
+							<option value = "iit">IIT</option>
+							<option value = "mnit">MNIT</option>
+							<option value = "bits">BITS</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td align = "right">Doctorate/Phd:</td>
+					<td>
+						<select name = "doctorate">
+							<option value = ""> Select </option>
+							<option value = "ptu">PTU</option>
+							<option value = "iit">IIT</option>
+							<option value = "mnit">MNIT</option>
+							<option value = "bits">BITS</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan = "2"><hr></td>
+				</tr>
+				<tr colspan= "2">
+					<td><b>Upload Resume<font size = "1pt"> Please upload a detailed resume.</font></b></td>
+				</tr>
+				<tr>
+					<td align="right"> <font color = red>*</font>Attach Resume: </td>
+					<td><input type="file" name="file" required accept = ".pdf"> </td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><font size = "2">supported formats: doc, docx, trf. Max File Size : 200kb</font></td>
+				</tr>
+				<tr>
+					<td colspan = "2"><hr></td>
+				</tr>
+				<tr colspan="2">
+					<td><b>Mailer And Privacy Settings</b></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="jobAlertCheck" value = "jobAlerts"> Job Alerts</td>
+					<td><input type="checkbox" name="importantNotificationCheck" value = "importantNotifications"> Important Notifications</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="jobAlertCheck" value = "naukariFastforwardEmails"> Naukri Fastforward E-Mails</td>
+					<td><input type="checkbox" name="importantNotificationCheck" value = "communicationFromClient"> Communication from client (Voice / Calls / SMS)</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="jobAlertCheck" value = "naukriForwardCalls"> Naukri FastForward Calls/SMS</td>
+					<td><input type="checkbox" name="importantNotificationCheck" value = "otherPromotions"> Other promotions / Special Offers</td>
+				</tr>
+				<tr>
+					<td colspan = "2"><hr></td>
+				</tr>
+				<tr>
+					<td colspan = "2"><input type="checkbox" name="accept" required>I have read & understood, and agree to the <a href="javascript:;">Terms and Conditions</a> governing the use</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" value="Create My Account"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
